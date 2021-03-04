@@ -1,4 +1,4 @@
-package com.example.spring.Lesson1.models;
+package com.example.spring.Lesson4.models;
 
 import lombok.*;
 

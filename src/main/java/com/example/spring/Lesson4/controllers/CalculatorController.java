@@ -1,7 +1,7 @@
-package com.example.spring.Lesson1.controllers;
+package com.example.spring.Lesson4.controllers;
 
-import com.example.spring.Lesson1.dao.CalculatorDao;
-import com.example.spring.Lesson1.models.Calculator;
+import com.example.spring.Lesson4.dao.CalculatorDao;
+import com.example.spring.Lesson4.models.Calculator;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

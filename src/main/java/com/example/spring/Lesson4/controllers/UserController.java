@@ -1,8 +1,8 @@
-package com.example.spring.Lesson1.controllers;
+package com.example.spring.Lesson4.controllers;
 
 
-import com.example.spring.Lesson1.dao.UserDao;
-import com.example.spring.Lesson1.models.User;
+import com.example.spring.Lesson4.dao.UserDao;
+import com.example.spring.Lesson4.models.User;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 public class UserController {
+
     UserDao userDao;
 
     @GetMapping("/hello")

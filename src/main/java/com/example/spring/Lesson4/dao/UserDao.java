@@ -1,7 +1,7 @@
-package com.example.spring.Lesson1.dao;
+package com.example.spring.Lesson4.dao;
 
 
-import com.example.spring.Lesson1.models.User;
+import com.example.spring.Lesson4.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
